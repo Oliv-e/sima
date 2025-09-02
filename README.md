@@ -1,23 +1,17 @@
--= =-
-->Validasi, Warning Box saat hapus (DONE)
-->Penyesuaian Tampilan saat responsive dan di TV
--> preview tampilan depan di belakang (DONE)
+# 📺 Sima for TV Android
 
-->Jadwal Sholat (DONE)
-->Quotes (DONE)
-->Pengumuman (DONE)
-->Iqamah (DONE)
-->countdown waktu sholat dan iqamah (DONE)
-->keuangan (DONE)
-->Gambar (DONE)
-->implementasi automatisasi muat halaman (DONE)
-->implementasi konfigurasi jeda waktu antara slide (DONE)
-->implementasi konfigurasi tampilan saat masuk waktu iqamah (DONE)
-->mengurutkan ulang dan kostumisasi petugas serta riwayat (DONE)
-->implementasi konfigurasi petugas jumat (DONE)
-->implementasi suara pada saat masuk waktu sholat dan iqamah (DONE)
+A simple **Laravel + Tailwind** application for displaying announcements, prayer schedules, and scrolling text (**marquee**) on **Android TV / Smart TV** screens.  
+This project is useful for mosques, organizations, or community boards that want to show live information on big screens.
 
-->KONFIGURASI WAKTU iQAMAH refRESH (DONE)
+## ✨ Features
+- 🕌 **Prayer Schedule** – automatically displays daily prayer times.  
+- 📢 **Announcements** – manage announcements via admin panel.  
+- 🔔 **Scrolling Text (Marquee)** – powered by **TailwindCSS + tailwindcss-animated**, with fallback JavaScript for Android TV compatibility.  
+- 📆 **Hijri Calendar** – auto-updated Islamic calendar display.  
+- ⚡ **Optimized for TV** – works even on Android TV browsers where `<marquee>` is not supported.  
 
-IDUL ADHA MODERATOR GANTI MC / PEMBAWA ACARA
-TARAWIH KHATIB GANTI KULTUM
+## 🛠️ Tech Stack
+- [Laravel 10+](https://laravel.com/) – backend & Blade templates  
+- [Tailwind CSS](https://tailwindcss.com/) – styling  
+- [tailwindcss-animated](https://tailwindcss-animated.vercel.app/) – smooth animations  
+- JavaScript (`requestAnimationFrame`) – fallback for TVs with limited CSS animation support  
